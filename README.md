@@ -10,7 +10,10 @@ Python being an interpreted language allows you to modify the code to suit your 
   - The soupit.py script saves (to a txt file) links from a page that contain the .jpg links
   - The crawlgall.py script gets the links associated with jpg files, downloads them and saves them to a txt file based on the soupit.py script
 
-# How to Use
-Paste the destination address of the file containing the links to the image files downloaded by the soupit script and run from Command Line.
+### How to Use
+- Gather links to galleries and save them to a txt file with each link on a new line.
+- Save file.
+- Paste the destination address of the file containing the links to the galleries and run crawlgall.py from Command Line.
+
 Must have BS4 installed via Pip.
 [Guide on how to install packages using pip](https://packaging.python.org/en/latest/tutorials/installing-packages/)
