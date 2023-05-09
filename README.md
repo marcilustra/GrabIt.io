@@ -7,8 +7,9 @@ Trying to get multiple images from a gallery page without having to open a new t
 
 ## How it addresses problem.
 The script provided will work for .jpg file links but can be modified to search for png links.
-  - The soupit.py script saves (to a txt file) links from a page that contain the .jpg links
+  - The linkgrabber.py script saves (to a txt file) links from a page that contains the .jpg links
   - The crawlgall.py script gets the links associated with jpg files, downloads them and saves them to a txt file based on the soupit.py script
+  - The download.py downloads the links saved by crawlgall in all_links.txt
 
 ### How to Use
 - Use linkgrabber.py to collect links from gallery page links and save them to a txt file.
