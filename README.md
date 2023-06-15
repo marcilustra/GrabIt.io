@@ -1,4 +1,4 @@
-# ImageSnatch
+# GrabIt.io
 This is a small Python script to automate image reference gathering from Online Galleries. Personal use. Might make it in other languages.
 Uses, BeautifulSoup4 to achieve the desired effect.
 
