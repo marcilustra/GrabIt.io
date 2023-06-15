@@ -12,8 +12,9 @@ The script provided will work for .jpg file links but can be modified to search 
   - The download.py downloads the links saved by crawlgall in all_links.txt
 
 ### How to Use
-- Use linkgrabber.py to collect links from gallery page links and save them to a txt file.
-- Then use crawlgall.py to grab the links to the jpgs and save them by datetime stamp filename.
+- Use linkgrabber.py to collect page links to galleries.
+  -   Specify the number of links you want to grab and how far down you want to scroll.
+- Then use crawlgall.py to grab the links to the jpgs and save them by datetime stamp filename to a folder of your choice.
 - The links will batch into one file 'all_links.txt'.
 - Use download.py to get them or better yet copy and paste into IDM or your preferred download manager.
 
